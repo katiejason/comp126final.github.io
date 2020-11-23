@@ -1,0 +1,336 @@
+/* All your custom styles go here. You can override the default Bootstrap styles or add your own custom styles for elements, classes, or IDs.  */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    align-items: center;
+    background: white;
+    text-align: center;
+    font: 20px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 2.2em;
+}
+
+.flex2 {
+    display: flex;
+    align-items: center;
+}
+.maincols {
+    display: flex;
+    justify-content: center;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background: hsl(207, 74%, 88%);
+    color: #14283E;
+    font-family: Georgia;
+    
+}
+
+
+i {
+    padding: .6rem;
+    font-size: 2.2rem;
+}
+
+.strap {
+    background: #CAE3F7;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-family: Georgia;
+}
+
+.card {
+    background: white;
+    border-radius: 1rem;
+    width: 16rem;
+    box-shadow: 3px 3px black;
+    color: #14283E;
+    font-family: Georgia;
+
+}
+
+.navbar {
+    background: #14283E;
+    font-family: Georgia;
+}
+
+
+.homemain {
+    background-image: url('laxhome.jpg');
+    background-position-y: -10.4em;
+    background-position-x: -5em;
+    display: flex;
+    align-items: center;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.homebtns {
+    background: #CAE3F7;
+    color: #14283E;
+    border-radius: .5rem;
+    font-weight: bold;
+    border: white;
+    box-shadow: 3px 3px black;
+}
+.homebtns:hover {
+    background: #14283E;
+    color: #CAE3F7;
+    cursor: pointer;
+}
+
+.container-fluid {
+    background: #CAE3F7;
+}
+.footer {
+    background: #CAE3F7;
+}
+
+.rosterhead {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia;
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: white;
+    color: #14283E;
+}
+
+.rostermain {
+    font-family: Georgia;
+    color: #14283E;
+    background: white;
+}
+
+.boldrosterheading {
+    font-weight: bold;
+}
+
+.roster2pic {
+    padding-top: 2rem;
+}
+
+/* katie's schedule css */
+
+ul {list-style-type: none;}
+body {font-family: Georgia, 'Times New Roman', Times, serif;}
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #709cd7;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#696969;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 20px 0;
+  background: #14283E;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size:30px;
+  color: #696969;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #709cd7;
+  color: white !important
+}
+
+.schedule {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: white;
+    color: #14283E;
+}
+
+.boldschedule {
+    font-weight: bold;
+}
+
+.schedulemain {
+    background: white;
+}
+
+.eventcard {
+    display: flex;
+    justify-content: center;
+}
+
+.event {
+    background: #709cd7;
+    width: 30rem;
+    height: 15rem;
+    padding: 2rem;
+    color: white;
+
+}
+
+/* exec page */
+
+.execpic {
+    display:flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.execblurb {
+    padding-top: 6rem;
+    padding-left: 8rem;
+    color: #14283E;
+   
+}
+
+.homemain {background-color:#CAE3F7;
+    background-attachment: fixed;
+    background-image:"laxhome.jpg";}
+
+.col-lg-8 { padding-left: 25rem;
+display: flex;
+justify-content: center;
+}
+
+.jumbotron { 
+background:#14283E;
+border-radius: 1rem;
+width: 86rem;
+box-shadow: 3px 3px black;
+color: #cae3f7;
+font-family: Georgia;
+
+}
+
+.btn {background-color: #cae3f7;color:black; border: #14283E;}
+.btn:hover {background-color: grey;}
+
+@media only screen and (max-width: 790px) {
+.col-lg-8 {
+    padding-left: 10px;
+}
+}
+.display-3 {
+  font-size: 2.5rem;
+}
+
+.contactmain {
+background-image: url('laxhome3.jpg');
+background-position-y: -10.4em;
+background-position-x: -5em;
+display: flex;
+align-items: center;
+padding-top: 8rem;
+padding-bottom: 8rem;
+}
+
+.aboutmain {
+    background-image: url('laxhome3.jpg');
+    background-position-y: -10.4em;
+    background-position-x: -5em;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    }
+
+    .boldphotos {
+        font-weight: bold;
+    }
+    
+    img {
+      width: 19rem;
+      height: 14rem;
+      padding: 0.5rem;
+    }
+    
+    .photos {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding-top: 1.5rem;
+      padding-bottom: 1rem;
+    }
+
+    .form-group {
+        font-size: 20px;
+      }
+      
+      .col-sm {
+        font-size: 30px;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+      }
+      
+      .col-sm p {
+        text-align: center;
+        font-size: 25px;
+        padding: 3rem;
+        padding-right: 3rem;
+        padding-left: 0rem;
+      }
+
+
+
+
+
+
+
+
